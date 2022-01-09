@@ -30,7 +30,7 @@
     margin: auto;
     justify-content: space-around;
     max-width: 1300px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .header h3 {
     font-weight: 500;
@@ -134,13 +134,13 @@ h1 {
     background-color: #738573;
     width: 100%;
     bottom: 0;
-    height: 340px;
+    height: 250px;
     margin-top: 62px;
 }
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin: auto;
     max-width: 1300px;
@@ -148,13 +148,16 @@ h1 {
     height: 100%;
     /* line-height: 50px; */
 }
+.opening-hours {
+    margin-right: 190px;
+}
 .footer h2 {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
 .footer p {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 300;
 }
